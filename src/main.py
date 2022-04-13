@@ -9,7 +9,7 @@ from utilities.ColorText import *
 def run():
 	printer = ColorText()
 	printer.set_color("wht","blk")
-	printer.set_special("bnk","bnk")
+	printer.set_special("bnk","bld")
 	printer.print("DO YOU WANT TO PLAY A GAME?\n")
 
 if __name__ == '__main__':
